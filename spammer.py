@@ -43,5 +43,5 @@ def thread():
         threading.Thread(target=spam, args=(token, channel_id, text)).start()
 
 
-start = input('Press eny key when you will be ready ')
+start = input('Press any key')
 start = thread()
